@@ -49,7 +49,7 @@
 
 
 
-@media (max-width: 814px) {
+@media screen and (max-width: 814px) {
     #hero-section {
         height: fit-content;
     }
