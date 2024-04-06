@@ -1,0 +1,107 @@
+#tech-stack {
+    margin: auto;
+    margin-bottom: 100px;
+    height: 100%;
+    color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#tech-stack img {
+    height: 50px;
+    width: 50px
+}
+
+.skills {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills h1 {
+    font-size: 3rem; 
+}
+
+.skills-container {
+    text-align: center;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+.frontend {
+    width: 450px;
+    display: block;
+    border-radius: 10px;
+    box-shadow:  0 12px 16px 0 rgba(0, 0, 0, 0.096), 0 6px 20px 0 rgba(0, 0, 0, 0.274);
+}
+
+h2 {
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+.title h2 {
+    align-items: center;
+}
+
+
+
+
+.logo {
+    margin: 12px;
+}
+
+.tech-container {
+    padding: 0px 40px 40px 40px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: .5fr .5fr;
+    gap: 20px;
+    justify-items: center;
+    width: inherit;
+    height: inherit;
+}
+
+.tech-container ul {
+    height: 100px;
+    transition: transform 500ms ease;
+}
+
+
+.tech-container ul:hover {
+    transform: scale(1.3);
+    
+}
+
+@media (max-width: 992px) {
+    .skills-container {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: inherit;
+        gap: 70px;
+    }
+    
+  }
+
+@media (min-width: 993px) and (max-width: 1370px) {
+    .skills-container {
+        text-align: center;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: inherit;
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+  }

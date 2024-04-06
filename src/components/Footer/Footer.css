@@ -1,0 +1,39 @@
+#footer-section {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+    font-size: 1.1rem;
+    padding: 50px 0;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-weight: 700;
+}
+
+.icon-container-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-container-footer * {
+    font-size: 2rem;
+    color: rgb(44, 44, 44);
+    margin: 3px;
+}
+
+.logo-footer {
+    width: 150px;
+    filter: brightness(150%)
+  
+}
