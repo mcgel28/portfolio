@@ -65,6 +65,11 @@
 
     .hero-text {
         margin-top: 150px;
+        padding: 3%;
+        width: 550px;
+        flex: 1;
+        font-size: 30px;
+        color: aliceblue;
     }
 
     .icon-container {
