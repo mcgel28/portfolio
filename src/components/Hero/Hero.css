@@ -63,6 +63,10 @@
         height: 100%;
     }
 
+    .hero-text {
+        margin-top: 150px;
+    }
+
     .icon-container {
         margin: 0;
         justify-content: center;
