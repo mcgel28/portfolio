@@ -3,7 +3,7 @@ import me from "../Assets/me.jpg"
 import { FaFacebook } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
-import TypingEffect from "../../redux/TypingEffect";
+import TypingEffect from "../../utilities/TypingEffect";
 import './Hero.css'
 
 
