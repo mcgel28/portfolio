@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.23ab150d.css",
-    "main.js": "/portfolio/static/js/main.4418a307.js",
+    "main.css": "/portfolio/static/css/main.ac0b89df.css",
+    "main.js": "/portfolio/static/js/main.6f466ed3.js",
     "static/media/me.jpg": "/portfolio/static/media/me.7800f4afe69b1aef1a74.jpg",
     "static/media/me2.jpg": "/portfolio/static/media/me2.c41a5e10d9ff99e0af57.jpg",
     "static/media/handcoding.png": "/portfolio/static/media/handcoding.4ed39e5397e66aef368c.png",
-    "static/media/rentmoto.jpg": "/portfolio/static/media/rentmoto.6861faea008ae8f95b02.jpg",
+    "static/media/highgearimg.jpg": "/portfolio/static/media/highgearimg.cdd787886f20fce17cc9.jpg",
     "static/media/seo.png": "/portfolio/static/media/seo.2ef1fb5e8d1c204d2714.png",
     "static/media/webflow.png": "/portfolio/static/media/webflow.74d9e66b6931f684dd82.png",
     "static/media/backgroundImage.jpg": "/portfolio/static/media/backgroundImage.6d29583106cec5c27672.jpg",
@@ -19,11 +19,11 @@
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.4ada9667b1fd4ca0f798.png",
     "static/media/github.png": "/portfolio/static/media/github.eb0fa7afcbb4d3bb9a5b.png",
     "index.html": "/portfolio/index.html",
-    "main.23ab150d.css.map": "/portfolio/static/css/main.23ab150d.css.map",
-    "main.4418a307.js.map": "/portfolio/static/js/main.4418a307.js.map"
+    "main.ac0b89df.css.map": "/portfolio/static/css/main.ac0b89df.css.map",
+    "main.6f466ed3.js.map": "/portfolio/static/js/main.6f466ed3.js.map"
   },
   "entrypoints": [
-    "static/css/main.23ab150d.css",
-    "static/js/main.4418a307.js"
+    "static/css/main.ac0b89df.css",
+    "static/js/main.6f466ed3.js"
   ]
 }
