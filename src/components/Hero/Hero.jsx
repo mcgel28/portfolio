@@ -23,9 +23,9 @@ function Hero() {
                                     <a className="icon" href="https://github.com/mcgel28" alt="github"><IoLogoGithub /></a>
                                 </div>
                         </div>
-                        </div>
+                    </div>
 
-                        <div className="me-area">
+                    <div className="me-area">
                             <img className="me" src={me} alt="img of Adrian"/>
                         </div>
                     </div>

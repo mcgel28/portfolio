@@ -76,16 +76,24 @@ textarea {
 }
 
 
-@media (max-width: 790px) {
+
+
+@media screen and (max-width: 480px)  {
     .contact-container {
         display: grid;
         grid-template-columns: 1fr;
         grid-row: inherit;
         place-items: center;
     }
+    .form {
+        width: 400;
+    }
+    input, textarea {
+        width: 370px;
+    }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1150px) {
+@media (max-width: 790px) {
     .contact-container {
         display: grid;
         grid-template-columns: 1fr;

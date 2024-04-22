@@ -26,10 +26,6 @@ function About() {
                             </div>
                             <div className="about-row-2">
                                 <li>
-                                    <h5>EMPLOYMENT</h5>
-                                    <p>Open</p>
-                                </li>
-                                <li>
                                     <h5>EDUCATION</h5>
                                     <p>BS Computer Science<br />(In Progress)</p>
                                     <p>BS Aircraft Maintenance<br />(2021)</p>

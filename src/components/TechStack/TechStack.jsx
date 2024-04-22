@@ -29,7 +29,7 @@ function TechStack() {
                 
                 <div className="skills-container">
 
-                    <div className="frontend">
+                    <div className="skill-box">
                         <div className="title">
                             <img className="logo" src={frontend} alt="code-logo"/>
                             <h2>Front-end Developer</h2>
@@ -44,7 +44,7 @@ function TechStack() {
                             </div>
                     </div>
 
-                    <div className="frontend">
+                    <div className="skill-box">
                         <div className="title">
                             <img className="logo" src={frontend} alt="code-logo"/>
                             <h2>Back-end Developer</h2>
@@ -56,7 +56,7 @@ function TechStack() {
                             </div>
                     </div>
 
-                    <div className="frontend">
+                    <div className="skill-box">
                         <div className="title">
                             <img className="logo" src={other} alt="other-logo"/>
                             <h2>Others</h2>

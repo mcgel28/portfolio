@@ -1,5 +1,5 @@
 import React from "react";
-import rentmoto from "../Assets/rentmoto.jpg"
+import highgear from '../Assets/highgearimg.jpg'
 import template from "../Assets/template.jpg"
 import { FaExternalLinkAlt } from "react-icons/fa";
 import './Portfolio.css'
@@ -13,10 +13,10 @@ function Portfolio() {
                 <h1 class="port-title">Portfolio</h1>
                 <div class="work-list">
                     <div class="work">
-                            <img class="portfolio-img"  src={rentmoto} alt="rent motorcycle" />
+                            <img class="portfolio-img"  src={highgear} alt="high gear motorcycles" />
                         <div class="layer">
-                            <h3>Motorcycle Renting Website</h3>
-                            <a href="https://mcgel28.github.io/rent-moto/"><FaExternalLinkAlt /></a> 
+                            <h3>High Gear Motorcycles<br/>Website</h3>
+                            <a href="https://mcgel28.github.io/high-gear"><FaExternalLinkAlt /></a> 
                         </div>
                     </div>
 
