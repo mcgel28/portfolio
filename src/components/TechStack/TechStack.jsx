@@ -6,6 +6,7 @@ import bootstrap from "../Assets/techlogo/bootstrap.png"
 import react from "../Assets/techlogo/react.png"
 import tailwind from "../Assets/techlogo/tailwind.png"
 import frontend from "../Assets/fontend.png"
+import backend from "../Assets/backend.png"
 import other from "../Assets/other.png"
 import github from "../Assets/techlogo/github.png"
 import figma from "../Assets/techlogo/figma.png"
@@ -46,7 +47,7 @@ function TechStack() {
 
                     <div className="skill-box">
                         <div className="title">
-                            <img className="logo" src={frontend} alt="code-logo"/>
+                            <img className="logo" src={backend} alt="code-logo"/>
                             <h2>Back-end Developer</h2>
                             </div>
                             <div className="tech-container">
