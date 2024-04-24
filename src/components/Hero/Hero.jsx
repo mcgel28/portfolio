@@ -14,7 +14,7 @@ function Hero() {
                     <div className="hero">
                         <div className="hero-text">
                             <p>Hi, I'm Adrian</p>
-                            <h1>Front-end</h1>
+                            <h1>Full-stack</h1>
                             <h1><TypingEffect /></h1>
                                 <div className="soocial-icons">
                                     <div className="icon-container">

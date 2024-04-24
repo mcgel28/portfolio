@@ -52,13 +52,9 @@
     #hero-section * {
         justify-content: center;
     }
-    .hero-text {
-        width: 400px;
-    }
+    
 
-    .hero-text * {
-        font-size: 40px;
-    }
+  
     .me-area {
         width: 100vw;
     }
@@ -71,7 +67,7 @@
 
 @media screen and (max-width: 814px) {
     #hero-section {
-        height: fit-content;
+        height: max-content;
         justify-content: center;
     }
     .hero {
@@ -85,10 +81,11 @@
     }
 
     .hero-text {
+        height: 386px;
         margin-top: 150px;
         padding: 3%;
-        width: 550px;
-        flex: 1;
+        width: 80%;
+        flex-shrink: inherit;
         font-size: 30px;
         color: aliceblue;
     }

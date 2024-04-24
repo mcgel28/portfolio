@@ -12,7 +12,7 @@ function About() {
                     </div>
                     <div className="about-text">
                         <h2 className="about-col-2">About Me</h2>
-                        <p>I am a web developer. Armed with a knack for creativity and an ability to transform designs into seamless functional digital experiences. My goal is to not only meet but exceed expectations, making visually and intuitively responsive websites that leave a lasting impression on users. <br /><br />My main stack is currently React.js in combination with Tailwind CSS. </p>
+                        <p>I am a full-stack web developer with a knack for creativity to transform designs into seamless functional digital experiences. My goal is to not only meet but exceed expectations, making visually and intuitively responsive websites. <br /><br />My main stack is currently React.js in combination with Tailwind CSS. </p>
                         <div className="about-row">
                             <div className="about-row-1">
                                 <li>
