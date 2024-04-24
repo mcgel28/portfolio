@@ -13,6 +13,7 @@
 
 .contact-container{
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     padding-bottom: 50px;
 }
@@ -34,17 +35,17 @@
 }
 
 .form {
+    padding: 20px;
     display: grid;
     flex: 1;
     height: 100%;
-    flex-direction: column;
     row-gap: 20px;
 }
 
 input, textarea {
     padding: 5px;
     height: 40px;
-    width: 500px;
+    width: 100% auto;
     font-size: 17px;
     border-radius: 10px;
 }
@@ -75,29 +76,24 @@ textarea {
     background: #1c50fa;
 }
 
-
-
-
-@media screen and (max-width: 480px)  {
-    .contact-container {
+@media screen and (max-width: 992px) {
+    .contact-container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-row: inherit;
-        place-items: center;
+        grid-template-rows: auto;
     }
-    .form {
-        width: 400;
-    }
+
     input, textarea {
-        width: 370px;
+        place-items: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    textarea {
+        height: 110%;
     }
 }
 
-@media (max-width: 790px) {
-    .contact-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-row: inherit;
-        place-items: center;
-    }
-}
+
+

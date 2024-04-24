@@ -49,7 +49,7 @@ function TechStack() {
                         <div className="title">
                             <img className="logo" src={backend} alt="code-logo"/>
                             <h2>Back-end Developer</h2>
-                            </div>
+                        </div>
                             <div className="tech-container">
                                 <ul><img src={nodejs} alt="html logo" /><p>NodeJs</p></ul>
                                 <ul><img src={expressjs} alt="css logo" /><p>ExpressJs</p></ul>
