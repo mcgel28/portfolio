@@ -6,6 +6,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
 
 function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <div id='footer-section'>
                 <div className='footer'>
@@ -17,7 +18,7 @@ function Footer() {
                             <a className="icon" href="https://github.com/mcgel28" alt="github"><IoLogoGithub /></a>
                         </div>
                     <p>Designed and Built by Adrian Miguel Arellano</p>
-                    <p>Copyright © 2024 - All right reserved</p>
+                    <p>Copyright © {currentYear} - All right reserved</p>
                     </footer>
                 </div>
         </div>
